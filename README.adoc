@@ -1,0 +1,698 @@
+:sectnums:
+:sectnumlevels: 5
+:imagesdir: images/tn
+:toc:
+:toc-title: Inhaltsverzeichnis
+:figure-caption: Bild
+:xrefstyle: short
+:author: Vladimir Vecgailis
+:email: vladmimir@vovka.de
+:call: DM2VV
+
+
+
+:revnumer: v0.1
+:revdate: 2022-12-04
+
+= Antennenmast auf dem Dach
+DM2VV, Vladimir Vecgailis
+
+
+
+== Intro
+
+Wieso dieser Artikel?
+
+Ich bin Funkamateur und wollte von Anfang an einen drehbaren Mast mit ein Paar Yagis haben.
+
+Leider ist die Info **wie** man die das aufbauen kann sehr dünn gesät. Jeder kocht sein eigenes Süppchen und man sieht nur Ergebnisse davon.
+
+Mit diesem Artikel möchte ich meine Idee des Aufbaus und die Erfahrung mit interessierten Hams und nicht-Hams teilen.
+
+
+== Haftungsausschluss
+Dies _keine_ ingenieurmäßige Fachpublikation. Alle Berechnungen sind zu prüfen und Nachbau erfogt auf eigene Gefahr. Alle damit verbundenen Risiken & eventuelle Schäden tragt ihr selbst.
+
+== Copyright
+Diese Publikation unterliegt der https://creativecommons.org/licenses/by/4.0/[Creative Commons License CC-BY 4.0].
+
+(c) 2022, Vladimir Vecgailis, DM2VV.
+
+== Ausgangssituation
+
+.Gegeben:
+
+* Einfamilienhaus auf einem ca 23x23m Grundstück in Berlin
+* Kaltdach, Dachstuhl mit 6x20cm Sparren
+* Nachbarn von allen Seiten
+* Null Bock auf einen extra-Mast mit Fundament, entsprechendem Aufwand, ggf. doch Baugenehmigung wenn's höher wie 10 Meter wird etc.
+
+.Gewollt:
+
+* eine Konstruktion die
+** *auf* dem Haus aufgebaut wird um die bestehende Gebäudehöhe auszunutzen
+** die **selbsttragend** und **nicht** mit dem Dachstuhl verbunden ist
+** für 2 Yagi's - VHF und KW - vorbereitet ist
+** konstruktiv einfach ist
+** ich im Alleingang / mit minimaler Hilfe aufbauen könnte
+** wiederzerlegbar wäre
+** aus Gründen der Statik
+*** bereits erwähnt und eben für mich essentiell - **nicht** mit dem Dachstuhl verbunden ist
+*** Statisch einfach ist und in diesem Kontext keine Kopfschmerzen bereitet
+*** aus Konstruktionselementen besteht die **keine** zusätzliche Statikberechnung benötigen
+** nicht das Etat sprengt
+
+
+== Der Plan
+
+Die Suche und Überlegungen haben lange gedauert.
+Meine allererste initiale Zeichnung (Giebelwandansicht) habe ich im März 2018 gemacht:
+
+.Initiale Zeichnung
+[link=images/IMG_20180319_124309.jpg]
+image::IMG_20180319_124309.jpg[Initiale Zeichnung]
+
+Die Umsetzung erfolgte erst im Sommer 2021.
+Da der Antennenmast so ziemlich am Ende der Familienpläne stand, hat es eben gedauert... ;-)
+
+Erster Punkt war die Konstruktion auszutüfteln.
+Es waren mehrere Anläufe, viele, lange Google-Sessions, viel Google-Bildersuche, Ebay nach möglichen Konstruktionen im BAU-Bereichen abgrasen.
+Ich kenn jetzt wahrscheinlich alle deutsche HAM-Onlineshops und deren Angebote was Antennenanlagen angeht ;-)
+Neben Suchen, habe ich unter anderem diverse OMs, die ich dabei mit ähnlichen Dachaufbauten fand (Google, Pinterest, qrz.com), anzuschreiben (mehr im Schlusswort).
+
+Irgendwann mal im Sommer 2020 Stand die Konstruktion fest und damit auch der Plan für Sommer 2021.
+
+Die groben Punkte des Unterfangens waren:
+
+. Dachtritte auf dem Dach montieren damit ich später an den Mast/Motor rankomme
+. Den "einfachen" Dachziegel gegen einen Antennenziegel austauschen
+. Tragende Konstruktion auf'm Spitzboden aufbauen und den Hauptmast durch den Antennenziegel durchstecken
+. Nachdem der Hauptmast steht - Plattformen für Rotor und Oberlager befestigen
+. Danach das Drehrohr aufbauen und dabei die Yagi auf der Spitze befestigen
+. Leitungen anschließen und durch den Hauptmast reinführen
+. Alles erden
+
+Ich konnte beginnen.
+
+
+== Die Konstruktion
+
+Bei Planung der Konstruktion waren es folgende Hauptpunkte die mich beschäftigt haben:
+
+. Unabhängigkeit vom Dachstuhl - damit dieser nicht mitbelastet wird; sie muss selbsttragend sein.
+. Belastungen müssen unterhalb der 1650 Nm Grenze sein
+. Konstruktionselemente müssen *garantiert* höheren Belastungen standhalten können - das letzte was ich will dass das Ganze bei einem Orkan zusammenknickt & das Dach beschädigt. Ich will ruhig schlafen können, letzten Endes :-)
+
+
+Der Spitzboden ist ca. 3,5 x 10,5 Meter:
+
+.Spitzboden
+[link=images/IMG_20151011_113439.jpg]
+image::IMG_20151011_113439.jpg[Spitzboden]
+
+Als Konstuktion sah ich irgendeine Art großes Dreibein, welches das Standrohr / den Hauptmast hält:
+
+.Dreibein
+[link=images/IMG_20210313_114237.jpg]
+image::IMG_20210313_114237.jpg[Dreibein]
+
+In einigen Amateurfunk-Onlineshops sah ich große Stative, aber alles was ich sah war zu kleinkalibrig und eher für leichte Verticals auf einem Flachdach gedacht.
+
+Final ist es folgende Konstruktion geworden:
+
+* als Hauptmast - das 3 Meter lange, 60mm dicke Standrohr aus dem Kathrein ZSH62 Set
+* dieser wird von 3 Stück 48 mm Baugerüstrohren gehalten
+* als Drehrohr - das 3 Meter lange und 48mm dicke Rohr aus dems Kathrein ZSH62 Set
+* am Boden wird der Hauptmast durch eine selbstgemachte Dreibein-Hülse gehalten
+* das alles auf einer Holz-Unterkonstruktion um die Kräfte auf die gesamte Aufstellfläche zu verteilen
+
+Grundriss ist
+
+.Grundriss
+[link=images/IMG_20200502_134302.jpg]
+image::IMG_20200502_134302.jpg[Grundriss]
+
+Hier das Foto vom Test-Aufbau im Garten:
+
+.Testaufbau
+[link=images/IMG_20210320_142206.jpg]
+image::IMG_20210320_142206.jpg[Testaufbau]
+
+
+
+Exakte Maße und Details zu den jeweiligen Teilen im Kapitel "Materialliste" weiter unten.
+
+
+== Statik
+
+Wichtigste Punkte zu klären waren:
+
+* Größe Biegemoments im Mast - damit die gesamte Konstruktion nicht einknickt
+* ob die Diagonalstreben und alle Knotenpunkte die auftretenden Kräfte aushalten
+
+Zur Biegemoment-Berechnung gibt es allerlei Statik-Webseiten, Funkamateur-Webseiten, aber auch "Mast-Berechnungsschema nach EN 50083-1" von Kathrein und viele andere Ressourcen. Ich werde diese hier nicht copy-paste-n, zeige hier lediglich *meine* Berechnungsgrundlagen die darauf aufbauen.
+
+=== Mastberechnung
+
+Ich zitiere hier aus den Datenblatt des https://www.kathrein-ds.com/produkte/zubehoer-mechanisch/maste/486/zsh-62[Kathrein Schiebemasts ZSH 62] den ich hier habe:
+
+> "Den technischen Daten liegen die Berechnungsgrundlagen nach DIN 4131 zugrunde. Überschreitet das
+errechnete Biegemoment die in Klammern angegebenen Werte (entspricht 1650 Nm am Einspannpunkt), ist
+gemäß EN 60728-11 ein statischer Nachweis zu führen".
+
+Also, damit ich mich nicht mit einem Statikbüro auseinandersetzen müsste - müssen Biegemomente im Mast unter dem Wert von **1650 Nm** bleiben.
+Ebenso ein Zitat aus demselben Datenblatt:
+
+> "Das max. zul. Biegemoment an der Einspannstelle gilt bei entsprechender Nutzlänge. Die
+Windlastaufnahme des Rohres ist bereits berücksichtigt. Nach EN 60728-11 muss die Masteinspannlänge
+mindestens 1/6 der Mastlänge betragen"
+
+Bei mir sind es 1,8 Meter Einspannlänge von effektiv ~ 5,5 Metern Gesamtlänge, also 1/3 der Gesamtlänge -- das doppelte der Mindest-Einspannlänge. Passt also.
+
+Für Konstruktionen unter 20m Höhe in Berlin wird Windlast und Biegemomente für einen Staudruck von 800 N/m² berechnet.
+
+Zusammenführung der Größen und Lasten:
+
+. Gesamt-Mastlänge: ~ 5,5 Meter
+. Mast Einspannlänge: 1,8 Meter, Nutzlänge entsprechend ~ 3,70m
+. Drei *mögliche* Antennen:
+.. VHF Yagi **Diamond A144S10**
+*** Abstand vom Mast-Einspannpunkt: ~ 3,60 Meter (siehe <<Lastfall1>>)
+*** Windlast bei 135 km/h: **~ 250 N** (fehlte in der Dokumentation, Berechnung hier)
+*** Berechnung
+**** Windangriffsfläche: 0,31 m² (3,336 "square foot" lt. Dokumentation)
+**** ergibt damit Windlast F = 0,31m² * 800 N/m² = 248 N ~ 250 N
+**** (Sollte da noch der Strömungsbeiwert von 1,2 für Rohre mit in die Berechnung rein? Nicht sicher...)
+.. KW Yagi **Fritzel FB23**
+*** Abstand vom Mast-Einspannpunkt: 1,90 Meter (siehe <<Lastfall2>>)
+*** Windlast bei 135 km/h: **380 N** (lt. Dokumentation)
+.. VHF Vertical **Diamond X30**
+*** Abstand vom Mast-Einspannpunkt: ~ 1,5 Meter  (1,42 Meter, nach oben gerundet - der ungünstigere statische Fall)
+*** Windlast bei 135 km/h: **50 N** (lt. Dokumentation)
+. Rotor, Plattformen, Oberlager etc.
+** Abstand vom Mast-Einspannpunkt: ~ 1 Meter (0,59 Meter, großzügig nach oben gerundet - der ungünstigere statische Fall)
+** Windlast bei 135 km/h: **100 N** (siehe Berechnung hier)
+*** Berechnung
+**** Fläche (wenn man sich Rotor im Profil anschaut): 0,2m * 0,3 m = 0,06 m²
+**** Sicherheitsfaktor: 2 (um die Ungenauigkeit Flächenberechnung zu decken)
+**** F = q * A * 2 = 800 N/m² * 0,06 m² * 2 = 96 N ~ 100N
+
+==== Lastfall 1: Antennenkombination - VHF Yagi & VHF Vertical
+Momentan (Stand Herbst 2021) habe ich nur die VHF Yagi(A144S10) und das VHF Vertical(Diamond X30) dran:
+
+.Lastfall 1
+[#Lastfall1]
+[link=images/Bemessung_Kraftarme_v1.jpg]
+image::Bemessung_Kraftarme_v1.jpg[Lastfall 1]
+
+Maximales Biegemoment an der Einspannstelle ist in diesem Lastfall
+
+* 250N * 3,6m + 50N * 1,5m + 100N * 1m = **1050 Nm**.
+
+==== Lastfall 2: Antennenkombination - VHF Yagi & KW Yagi
+
+Sobald die KW Yagi(Fritzel FB23) mal da ist, dann, um alle drei Antennen gleichzeitig zu betreiben und unter dem 1650 Nm Biegemoment zu bleiben, werde ich
+
+* die X-30 werde woanders montieren - z.B. an der Giebelwand (oder auch nur einen Meter nach unten verschieben, wenn es von der Konstruktion her klappt, denn Biegemoment lässt dies noch zu)
+* die VHF Yagi(A144S10) wird knapp einen halben Meter nach unten verschoben
+* die KW Yagi wird bei ca 1,90 ab dem Mast-Einspannpunkt befestigt
+
+.Lastfall 2
+[#Lastfall2]
+[link=images/Bemessung_Kraftarme_v2.jpg]
+image::Bemessung_Kraftarme_v2.jpg[Lastfall 2]
+
+Maximales Biegemoment an der Einspannstelle ist in diesem Lastfall
+
+* 250N * 3m + 380N * 1,9m + 100N * 1m = **1572 Nm**
+
+
+Das zulässige Biegemoment für https://www.kathrein-ds.com/produkte/zubehoer-mechanisch/maste/486/zsh-62[Kathrein Schiebemasts ZSH 62] bei Staudruck 800 N/m² und 4 Meter Nutzlänge beträgt lt. Dokumentation (siehe erneut das Datenblatt) **2120 Nm**.
+
+Fazit:
+
+* Der statisch ungünstigere Fall ist der _Lastfall 2_, seine Werte nutze ich zur Prüfung der Statik
+* ich bleibe unter 1650 Nm in allen Fällen
+* der Mast selber kann in beiden Lastfällen die auftretenden Kräfte vertragen
+
+
+Die Statik habe ich mit einem Programm Namens "EasyStatics" überprüft.
+
+Hier das Biegemoment: **1575 Nm**
+
+.Biegemoment
+[link=images/Statik_Biegemoment.jpg]
+image::Statik_Biegemoment.jpg[Biegemoment]
+
+
+Auflagekraft am Einspannpunkt: **1608 N**
+
+.Auflagekraft
+[link=images/Statik_Normalkraft.jpg]
+image::Statik_Normalkraft.jpg[Auflagekraft]
+
+
+=== Diagonalstreben und Kupplungen
+
+==== Statikannahmen
+Für die Diagonalstreben und Kupplungen nehme ich einen imaginären, statisch gesehen ungünstigsten Fall an, wo die Auflagekraft von 1608N vollständig und nur auf eine Stebe / nur ein Gelenk wirkt. Da es ja immer 3 Streben sind, 3 Holzkupplungen etc. heißt es - wenn es bereits *eine* Strebe / Kupplung alles verträgt, dann habe ich eine mindestens *dreifache Sicherheit* bei zulässigen Belastungen der Unterkonstruktion.
+
+
+==== Benutzte Bauelemente
+
+Anschluss der Streben an den den Hauptmast sowie der Anschluss der Streben an die Holz-Unterkonstruktion erfolgt mit Standardgerüstkupplungen (der Firma Rux).
+
+Zulässige Belastungen für Gerüstrohre sind in DIN EN39 und für Kupplungen in DIN EN74 spezifiziert. An die Normen selber kommt man kaum als Privatmann ran. Glücklicherweise geben Hersteller / Verkäufer die Info weiter oder schreiben in Produktbeschreibungen rein welche Belastung die Bauteile aushalten.
+
+==== Gerüstrohre
+
+Als Diagonalstreben werden reguräle Gerüstrohre benutzt in 48,3 mm Durchmesser und 3,25 mm Wandstärke.
+
+In meiner Konstruktion werden diese auf Druck & Zug belastet.
+
+Es sind also 2 Fälle zu untersuchen:
+
+* Ausknicken unter Druck
+* Reissen bei Zug
+
+Verwendetes Matierial bei Gerüstrohren ist E235(St 37-2).
+
+Zugfestigkeit: 240 N/mm², **Zulässige Spannung: 214 N/mm²**. Danke an Detlef Schmegel! -> http://schmegel.eu/berechnen/statik/antenn_06.html.
+
+
+
+===== Ausknicken unter Druck
+
+Um diesen Lastfall zu untersuchen nehme ich das stark vereifachte und aus statischer Sicht ungünstigsten Fall wo die Gesamte Auflagekraft von 1608N am Einspannpunkt vollständig und nur in *eine* Strebe belastet (Normalerweise sind es alle 3 Streben):
+
+.Strebe Normalkraft
+:imagesdir: images
+image::Strebe_Normalkraft.jpg[Strebe Normalkraft]
+
+Hier ein Danke an Jochannes Strommer mit dem https://www.johannes-strommer.com/rechner/knicken-von-staeben-euler/[Rechner für Knicksicherheit & Knicklast von Stäben].
+
+Eine einfache Berechnung damit zeigt, dass die Strebe unter der Last von 1608N nun ganz und gar nicht ausknickt:
+
+.Strebe Knicken
+:imagesdir: images
+[link=images/Strebe_Knicken.jpg]
+image::Strebe_Knicken.jpg[Strebe_Knicken]
+
+Hier nahm ich gar
+
+* 3 Meter Länge der Strebe (in Realität - ca 2.70)
+* 2 kN Belastung (anstelle 1608N)
+
+und habe dennoch eine Knicksicherheit von 12(!). Und das bei *einer* Strebe welche die gesamte Last aufnimmt.
+
+
+
+===== Reissen bei Zug
+
+Auch hier betrachte ich den statisch ungünstigsten Fall wo *eine* Strebe durch die gesamte Kraft auf Zug belastet wird.
+
+.Strebe Normalkraft Zug
+:imagesdir: images
+[link=images/Strebe_Normalkraft_Zug.jpg]
+image::Strebe_Normalkraft_Zug.jpg[Strebe Normalkraft Zug,500]
+
+Aus der "Ausknicken unter Druck" Berechnung (s.o.) weiss ich dass die Spannung in der Strebe *4,7 N/mm²* beträgt.
+Zulässige Spannung für ein solches Rohr ist **214 N/mm²** (s.o. Anfang des Kapitels "Gerüstrohre").
+
+Also auch hier - alles bestens.
+
+:imagesdir: images/tn
+
+==== Kupplungen
+Für den Anschluss Hauptmast-Strebe nutze ich eine Drehkupplung. Da die Durchmesser des Hauptmasts 60mm und der der Diagonale 48mm kommt hier eine sog. "Reduzier-Drehkupplung" zum Einsatz:
+
+
+.Reduzier-Drehkupplung
+:imagesdir: images
+image::reduzier-drehkupplung.png[]
+
+Die Strebe wird and die Holz-Unterkonstruktion mittels einer drehbaren "Kantholzkupplung" angeschlossen:
+
+.Kantholzkupplung
+:imagesdir: images
+image::kantholzkupplung.png[]
+
+Zitat aus der Broschüre über https://geruest-welt.de/out/media/infothek/technische_datenblaetter/technische_info_rux_kupplungen_zulaessige_belastungen.pdf[Rux-Kupplungen]
+(hier nochmal eine link:files/technische_info_rux_kupplungen_zulaessige_belastungen.pdf[Kopie] falls der Link nicht funktioniert):
+
+:imagesdir: images/tn
+
+.Reduzier-Drehkupplung:
+> Stahl, gesenkgeschmiedet, feuerverzinkt, für die
+Verbindung von Rohren mit verschiedenen Außen-Ø,
+Zulässige Belastung 6,00 kN
+
+.Kantholzkupplung, drehbar:
+> Stahl, gesenkgeschmiedet, feuerverzinkt, Halbkupplung
+mit Bundmutter 19 oder 22 mm Schlüsselweite
+und gelochtem, drehbarem Winkel zur Aufnahme von
+Kanthölzern. Zulässige Belastung 6,00 kN.
+Anzugsmoment der Bundmuttern 50 Nm.
+
+
+
+Also beides **6 kN**.
+
+Auftretende Kräfte aus den Diagonalen sind maximal: **1608 N** (zur Erinnerung - der ungünstigste Fall wo alles nur von einer Strebe und entsprechend einer Kupplung gehalten wird).
+
+Fazit: Kupplungen halten alles locker aus. Es ist eine fast vierfache Sicherheit bei zulässigen Belastungen gegeben.
+
+
+== Aufbau
+
+=== Dachtritte
+
+Eine der Schwierigkeit war - ich kam an den Punkt des Daches, wo der Antennenmast herausragen sollte, nicht ran.
+Der war knapp 5 Meter von der Dachluke entfernt:
+
+.Dachtritte
+[link=images/Bild1.jpg]
+image::Bild1.jpg[Dachtritte]
+
+Also mussten erst Dachtritte gekauft  und montiert werden.
+
+Den Sommer/Herbst 2020 verbrachte ich damit Dachdeckereien / Montagefirmen aus der nächsten Umgebung anzuschreiben.
+Insgesamt ca 20 Firmen kontaktiert. Davon antworteten nur 5.
+Und alle hatten kein Interesse; klar auch, ist nicht gerade trivial und viel Kohle lässt sich da nicht machen.
+Also hieß es hier - selber machen.
+
+Dachtritte holte ich bei Ebay. Erst nur ein Teil, damit vor Ort alles ausgemessen und ausprobiert. Dann die anderen vier.
+Letzten Endes sind es fünf Dachtritte zu je 1 Meter Länge geworden.
+
+Deren Montage war eine Geschichte für sich, darauf werde ich nicht eingehen.
+
+=== Antennenziegel
+
+Und das Standrohr durch die Dachhaut durchzuführen habe ich bei meiner Baufirma einen Antennenziegel bestellt:
+
+.Antennenziegel
+[link=images/IMG_20200308_181230.jpg]
+image::IMG_20200308_181230.jpg[Antennenziegel]
+
+=== Konstruktion aufbauen
+
+Im Sommer 2021 fing ich die Konstruktion auf'm Spitzboden aufzubauen.
+
+
+.Balken hingelegt - einer war knapp 50cm zu lang, aber das wusste ich schon im Vorfeld
+[link=images/IMG_20210325_211852.jpg]
+image::IMG_20210325_211852.jpg[IMG_20210325_211852.jpg]
+
+.Vorbohren ist Pflicht
+[link=images/IMG_20210523_180639.jpg]
+image::IMG_20210523_180639.jpg[IMG_20210523_180639.jpg]
+
+.Plastikring für die Dachbahn
+[link=images/IMG_20210523_180659.jpg]
+image::IMG_20210523_180659.jpg[IMG_20210523_180659.jpg]
+
+.30cm lange Holzschrauben. Auch hier vorbohren auf die gesamte Länge.
+[#IMG_20210523_182757]
+[link=images/IMG_20210523_182757.jpg]
+image::IMG_20210523_182757.jpg[IMG_20210523_182757.jpg]
+
+So treffen sich alle 3 Balken in der Mitte - am Ende mit insgesamt 3 Holzschrauben zusammengehalten.
+
+.Mitte
+[#IMG_20210523_182831]
+[link=images/IMG_20210523_182831.jpg]
+image::IMG_20210523_182831.jpg[IMG_20210523_182831.jpg]
+
+.8 cm lange Schrauben mit demselben Durchmesser
+[link=images/IMG_20210523_182930.jpg]
+image::IMG_20210523_182930.jpg[IMG_20210523_182930.jpg]
+
+.Dreibein wird ebenso an die Balken mit 3 Schrauben befestigt
+[link=images/IMG_20210523_184504.jpg]
+image::IMG_20210523_184504.jpg[IMG_20210523_184504.jpg]
+
+Zu der Halterung wäre nochmal folgendes anzumerken - die 3 unteren Schrauben, welche die Metallwinkel halten, dienen ebenso als "Stopper" für den Hauptmast. Drei oberen Bohrungen (hier nur eins sichtbar) dienen dazu um den Hauptmast zu fixieren. In allen Bohrungen habe ich das Gewinde für die M10-Schrauben eingeschnitten.
+
+.Und vorsichtshalber noch einige kleinere Schrauben rein
+[link=images/IMG_20210523_185929.jpg]
+image::IMG_20210523_185929.jpg[IMG_20210523_185929.jpg]
+
+.Zwei von drei Balken zusammen
+[link=images/IMG_20210523_190643.jpg]
+image::IMG_20210523_190643.jpg[IMG_20210523_190643.jpg]
+
+.Der dritte Balken kurz vor abschneiden & befestigen
+[link=images/IMG_20210523_190700.jpg]
+image::IMG_20210523_190700.jpg[IMG_20210523_190700.jpg]
+
+Da die Tageszeit knapp war und mein Helfer auch nur begrenzt Zeit hatte - so bin mit den Hauptmast
+auf's Dach geklettert und diesen vorsichtig durch den Antennenziegel *von Außen nach Innen*
+durchgesteckt. Andersrum - also durchstecken vom Spitzboden aus hat nicht geklappt, lichte
+Höhe schlichtweg zu klein und der Mast mit 3 Meter Länge viel zu groß. +
+Eine weitere, theoretische Möglichkeit die ich noch sehe ist - den Antennenziegel entfernen,
+dann würde der Mast durch das relativ Öffnung (30x30cm) auch vom Spitzboden aus durchstecken. Vielleicht.
+Vielleicht jedoch auch nicht.
+
+.Hauptmast steht
+[link=images/IMG_20210524_122315.jpg]
+image::IMG_20210524_122315.jpg[IMG_20210524_122315.jpg]
+
+
+Gummipads zwischen dem Mast und dem Antennenziegel um Eventualitäten zu vermeiden.
+Es dürfte zwar *nie* zu irgendeinem Aufprall / starkem Wackeln des Masts hier kommen, aber sicher ist sicher.
+
+.Gummipads
+[link=images/IMG_20210524_122342.jpg]
+image::IMG_20210524_122342.jpg[IMG_20210524_122342.jpg]
+
+Zwei von drei Streben befestigt. Bereits hier stand der Mast bombenfest.
+
+.Zwei von drei
+[link=images/IMG_20210524_125041.jpg]
+image::IMG_20210524_125041.jpg[IMG_20210524_125041.jpg]
+
+Habe den dritten Balken zurechtgeschnitten, mit den bereits liegenden Balken mittels zwei weiterer 30cm langer (siehe Bild <<IMG_20210523_182757>> und <<IMG_20210523_182831>> ) Schrauben verschraubt. +
+Damit war die Unterkonstruktion fertig. +
+
+
+.Unterkonstruktion ist fertig
+[link=images/IMG_20210524_182959.jpg]
+image::IMG_20210524_182959.jpg[IMG_20210524_182959.jpg]
+
+Balken habe ich am Boden des Spitzbodens mittels ähnlicher (wie im <<IMG_20210523_182757>>) Schrauben, jedoch in Ausführung als Flachkopfschrauben (mit knapp 30mm rundem Kopf) befestigt - siehe rote Umrandungen. +
+Da wo rote Linien verlaufen, verlaufen nämlich die Deckenbalken vom Obergeschoss. In diese Balken, die ja unter dem Spitzboden-Boden verlaufen, habe ich die Flachkopfschrauben reingejagt. +
+Auf der linken Seite, leider nicht sichtbar, da wo der Unterkonstruktionsbalken auf den Kehlbalken trifft, habe ich eine den UK-Balken mit einem massiven Metallwinkel an den Kehlbalken angeschlossen. +
+Die Unterkonstruktion wird an keiner Stelle irgendwie abheben können.
+
+.Befestigung der Unterkonstruktion am Boden
+[link=images/IMG_20210524_1829592.jpg]
+image::IMG_20210524_1829592.jpg[IMG_20210524_1829592.jpg]
+
+
+==== Einspannlänge
+
+Wo ich den Hauptmast aus'm Dach herausragen sah, begriff ich daß mir knapp ein halber Meter an Länge fehlt um einen vernünftigen Abstand zwischen der oberen und unteren Plattformen zu haben:
+
+.IMG_20210524_174438.jpg
+[link=images/IMG_20210524_174438.jpg]
+image::IMG_20210524_174438.jpg[IMG_20210524_174438.jpg]
+
+Die Einspannlänge für das Drehrohr würde hier knapp 50 cm betragen. Bei 3 Meter gesamtlänge des Drehrohrs ist dies ein Verhältnis 1:5 der Einspannlänge zum freien Rohrstück. Das ist viel zu wenig. +
+In der Aufbauanleitung des Rotors stand nur am Rande als Bild etwas vom Verhältnis weniger als 1:1. Sprich die Einspannlänge sollte mehr als 1 Meter
+betragen und die freie Länge bis zur Antenne - da wo die Windlast einwirkt - weniger als 1 Meter.
+Nirgendwo im Text war was dazu zu lesen.
+
+.Einspannung lt. Yaesu
+[link=images/Einspannlaenge_Rotor.jpg]
+image::Einspannlaenge_Rotor.jpg[Einspannlaenge_Rotor.jpg]
+
+Da konnte ich jedoch nur mit dem Kopf schütteln.
+
+Wenn man die Google-Bildersuhe nach https://www.google.com/search?q=amateurfunk%20dach%20rotor&tbm=isch&tbs=rimg&hl=de-DE&sa=X["amateurfunk dach rotor"] bemüht - findet man sehr viele, sehr unterschiedliche Montagen mit einem ganz anderen Verhältnis - 1:2, mache 1:3 oder gar mehr.
+
+Klar, es hängt vom Antennengewicht & Windangriffsfläche ab, wie weit sie vom Rotor befestigt werden darf.
+Eine kleine 2m Yagi ist was anderes als eine KW-Yagi mit 4 Meter Drehradius und entsprechender Windfläche.
+
+
+Ferner, diese Anforderung mit der Einspannlänge kommt aus der Tatsache, daß der Motor die Gesamte Querkraft aus dem Drehrohr kriegt.
+Bei einer zu großen Last kann der Rotor/die Klemmbacken in der Tat kaputtgehen.
+
+Eine Lösung für dieses Problems, welche im Internet diskutiert wird, ist daß man eine *zweite* Plattform mit einem Oberlager nimmt:
+
+.Zweites Oberlager entlastet Rotor
+[link=images/zweites_oberlager.jpg]
+image::zweites_oberlager.jpg[zweites_oberlager.jpg]
+
+Damit wird der Rotor komplett von der Querkraft entlastet.
+
+(Wo es zur KW-Yagi bei mir kommt werde ich sehr wahrscheinlich dies auch so machen.)
+
+Fazit bei mir - ich müsse das Drehrohr mehr als 1 Meter eingespannt haben.
+
+So, wenn es zur KW-Yagi kommt (siehe <<Lastfall2>>), so wird sie knapp 20-30 cm über Oberlager eingespannt sein. Die UKW-Yagi knapp 1,4 Meter darüber.
+Damit wird alles im Lot sein.
+
+==== Verlängerungsstück
+
+Da die Einspannlänge zu kurz war, musste ich den Hauptmast verlängern. Der fehlende halbe Meter musste her.
+
+Plan und Umsetzung waren wie folgt: +
+ich hole ein 1 Meter langes Rohr welches gleichen Durchmesser(48mm, wie der dünnere Schiebemast, der als Drehrohr fungiert) und (fast die gleiche) Wanddicke(3mm anstelle 4.5) hat und dieses wird mittels der Kathrein's Original-Schiebemastmuffe befestigt.
+
+*Problem:* +
+Falls die Oberlager-Plattform "einfach" auf das Verlängerungsrohr geschraubt wird, ist die Oberlager-Plattform gegenüber der Rotor-Plattform um knapp 6 mm versetzt. Dies führt später bei Montage des Drehrohrs dazu, daß dieser *schief* stehen wird.
+
+.Schieflage wegen unterschiedlicher Durchmesser
+[link=images/aufpolstern_problem.jpg]
+image::aufpolstern_problem.jpg[aufpolstern_problem.jpg]
+
+*Lösung:* +
+das Verlängerungsrohr muss "aufgepolstert" werden, so daß aus 48mm benötige 60mm werden.
+
+*Umsetzung:* +
+Ich holte ein 25cm langes Alu-Rohrstück (60 mm Außendurchmesser, 5mm Wanddicke) und habe dieses in der Länge durchgeflext (knapp 8+ mm Schlitzbreite)
+
+Dieses Alu-Rohr kommt auf das Verlängerungsrohr und polstert auf das Verlängerungsrohr auf.
+
+.Alu-Rohr, Verlängerungsrohr und Kathrein-Muffe
+[link=images/IMG_20210528_172237.jpg]
+image::IMG_20210528_172237.jpg[IMG_20210528_172237.jpg]
+
+.Alu-Rohr
+[link=images/IMG_20210528_190751.jpg]
+image::IMG_20210528_190751.jpg[IMG_20210528_190751.jpg]
+
+.Passt perfekt
+[link=images/IMG_20210528_190918.jpg]
+image::IMG_20210528_190918.jpg[IMG_20210528_190918.jpg]
+
+.Passt perfekt
+[link=images/IMG_20210528_190908.jpg]
+image::IMG_20210528_190908.jpg[IMG_20210528_190908.jpg]
+
+Hier ein Vergleich: Vorher - Nachher
+
+.Vergleich
+[link=images/vorher-nachher.jpg]
+image::vorher-nachher.jpg[vorher-nachher.jpg]
+
+
+
+=== Drehrohr montieren
+
+Bei größeren Booms würde die Abfolge hier folgende sein:
+
+* Drehrohr montieren
+* danach Anhänger-Arbeitsbühne mieten und
+* damit Antennen in der Höhe installieren und anschließen
+
+Da es in meinem Fall erstmal nur um die UKW-Yagi ging, habe ich dies etwas anders gemacht:
+
+. Drehrohr auf's Dach befördert und durch das Oberlager (von unten) schief durchgesteckt. Es ragten knapp 30 cm aus dem Oberlager aus.
+. Dann die Yagi drauf montiert, Leitung angeschlossen.
+. Dann das Drehrohr weiter durch das Oberlager getrieben biss ich das untere Ende des Drehrohrs im Rotor reinsteckte und befestigte.
+. Danach Leitung mit Kabelbindern befestigt und den Rest gemacht.
+
+Von der Methode kann ich nur echt abraten. Das war physisch richtig anstrengend. Wenn man es zu zweit auf'm Dach macht - dann wäre dies sicherlich leichter. Hier, wie ihr seht, passt kein zweiter rauf.
+
+Ende Gut - alles gut.
+
+.IMG_20210529_145909.jpg
+[link=images/IMG_20210529_145909.jpg]
+image::IMG_20210529_145909.jpg[IMG_20210529_145909.jpg]
+
+
+=== Vertical montieren
+
+Für die lokalen Runden habe ich einen Kragarm geholt und am nächsten Wochenende das Vertical(Diamond X30) befestigt:
+
+
+.Kragarm und Vertical
+[link=images/IMG_20211022_6465.JPG]
+image::IMG_20211022_6465.JPG[IMG_20211022_6465.JPG]
+
+.Kragarm und Vertical #2
+[link=images/IMG_20210821_153650.jpg]
+image::IMG_20210821_153650.jpg[IMG_20210821_153650.jpg]
+
+
+=== Erdung
+
+Die Erdung sollte natürlich nicht vergessen werden.
+
+
+Ich holte einen 4.5 Meter langen Tiefenerder und rammte den in die Erde hinter'm Haus.
+
+Erdleiter-Anschluss erfolgte am Hauptmast, direkt über der Rotor-Plattform.
+
+Befestigung an Dach machte ich mittels hierfür spezieller Dachbefestigungen:
+
+:imagesdir: images
+.Dachbefestigung für Erdleiter
+image::dachbefestigung.jpg[dachbefestigung.jpg]
+
+Diese sind schön dünn und können an den Falz der Dachziegel angepasst/zurechtgebogen werden.
+
+
+Für Antennenleitungen wurden 3 ( denn ich habe 3 HF-Leitungen vom Shack zum Dach) Stück Blitzschutz-Zwischenstecker
+
+image::SP-1000.jpg[SP-1000.jpg]
+
+geholt, in die Leitungswege zwischengeschaltet und an den Hauptmast auf'm Spitzboden mit 16mm² flexiblem Kupferkabel angeschlossen:
+
+:imagesdir: images/tn
+.Spitzboden Leitungsabschluss
+[link=images/IMG_20220116_132632.jpg]
+image::IMG_20220116_132632.jpg[IMG_20220116_132632.jpg]
+
+Was heute noch fehlt ist der Blitzschutz für die Rotor-Steuerleitung, wird aber bald bestellt und montiert.
+
+Der Blitzschutz ist damit komplett.
+
+
+== Materialliste & Kosten
+
+Hier Materialliste der Hauptkomponenten die genaue Maßangaben benötigen.
+
+. Hauptmast und Drehrohr: Kathrein ZSH62 set. Das sind zwei 3m Rohre, 48mm und 60mm Durchmesser und Verbindungsmuffe.
+. Baugerüstrohre,48mm Durchmesser, 3m lang, 3 Stück
+. Reduzier-Drehkupplungen, 3 Stück, 48mm auf 60mm
+. Kantholzkupplung, 3 Stück für 48mm
+. Für's Dreibein
+.. Präzisions-Rohrstück 250mm lang, 70mm Durchmesser, 4mm Wanddicke
+.. Drei PKR Winkelverbinder, 285mm lang
+.. 6 Schrauben M10, 25mm, V2A
+. Holzbohlen, 100mm x 200mm, 3 Meter lang, 3 Stück
+. Rotor & Co
+.. Rotor Yaesu G-1000DXC
+.. Rotor Absorberplatte GA-3000
+.. Oberlager GS-065
+.. Rotor-PLattform GPF-60, 2 Stück
+.. Steuerkabel 5-adrig, 35m
+. Mastkappe für 48mm - für's Drehrohr
+. Kathrein Mastkappe ZTC 08 48/60mm - für den Hauptmast
+. Kathrein ZTC 60 Abdeckkragen, 60mm
+. Kathrein ZTC 01 Kragen, selbstvulkanisierend
+. 1 Meter Baugerüstrohr als Verlängerungsstück, 48mm Durchmesser, 3.2mm Wanddicke
+. Alu-Rohrstück 25cm, 60mm Außendurchmesser, 5mm Wanddicke
+. Sirio FT-2 Mastadapter für 42-50mm Masten um die UKW-Yagi auf dem Drehrohr zu befestigen
+. Tiefenerder 4.5m
+. Rundleiter/Erdleiter, 8mm Durchmesser, 21 Meter, viele diverse Klemmen für Anschlüsse, von Dehn
+. Dachleitungshalter für Ziegeldächer, flexibel, von Dehn
+. SP-1000 Diamond Blitzschutz-Zwischenstecker, 3 Stück, PL-Kupplung + PL-Kupplung
+
+Hier meine komplette Materialliste, Links zu Shops und Kostenaufstellung: link:files/Kosten.ods[Kosten.ods]
+
+
+== Danke
+
+In meinen Recherchen nach Umsetzungen habe ich einige OMs im Internet angeschrieben.
+
+Hier möchte ich mich herzlich bei Christian, DL1OD für die zugesandten Infos und Fotos bedanken.
+
+
+== Schlusswort
+
+Ich hoffe dieses Dokument wird Gleichgesinnten eine Stütze sein.
+
+
